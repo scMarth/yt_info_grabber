@@ -93,163 +93,209 @@ accounts = {
         'https://www.youtube.com/@BanzoinHakka',
         'https://www.youtube.com/@JosuijiShinri'
     ],
-    'virtuareal' : [
-
-    ],
+    # 'virtuareal' : [
+    #     # not included since they are on bilibili
+    # ],
     'nijisanji main branch' : [
-        https://www.youtube.com/@TsukinoMito
-        https://www.youtube.com/@YukiChihiro
-        https://www.youtube.com/@ShizukaRin
-        https://www.youtube.com/@ShibuyaHajime
-        https://www.youtube.com/@Moira
-        https://www.youtube.com/@HiguchiKaede
-        https://www.youtube.com/@Elu
-        https://www.youtube.com/@Suzuya_Aki
-        https://www.youtube.com/@MononobeAlice
-        https://www.youtube.com/@KenmochiToya
-        https://www.youtube.com/@IenagaMugi
-        https://www.youtube.com/@MorinakaKazaki
-        https://www.youtube.com/@FushimiGaku
-        https://www.youtube.com/@GilzarenIII
-        https://www.youtube.com/@FuminoTamaki
-        https://www.youtube.com/@UshimiIchigo
-        https://www.youtube.com/@SuzukaUtako
-        https://www.youtube.com/@YuhiRiri
-        https://www.youtube.com/@Kanae
-        https://www.youtube.com/@AkabaneYouko
-        https://www.youtube.com/@Dola
-        https://www.youtube.com/@HanabatakeChaika
-        https://www.youtube.com/@AzuchiMomo
-        https://www.youtube.com/@Ryushen
-        https://www.youtube.com/@Sister_Claire
-        https://www.youtube.com/@SuzukiMasaru
-        https://www.youtube.com/@TodorokiKyoko
-        https://www.youtube.com/@UzukiKou
-        https://www.youtube.com/@HarusakiAir
-        https://www.youtube.com/@YashiroKizuku
-        https://www.youtube.com/@NaruseNaru
-        https://www.youtube.com/@SasakiSaku
-        https://www.youtube.com/@HonmaHimawari
-        https://www.youtube.com/@MakainoRirimu
-        https://www.youtube.com/@Kuzuha
-        https://www.youtube.com/@ShiinaYuika
-        https://www.youtube.com/@KandaShoichi
-        https://www.youtube.com/@AmemoriSayo
-        https://www.youtube.com/@TakamiyaRion
-        https://www.youtube.com/@AsukaHina
-        https://www.youtube.com/@MaimotoKeisuke
-        https://www.youtube.com/@DebidebiDebiru
-        https://www.youtube.com/@RindouMikoto
-        https://www.youtube.com/@JoeRikiichi
-        https://www.youtube.com/@MachitaChima
-        https://www.youtube.com/@SakuraRitsuki
-        https://www.youtube.com/@BelmondBanderas
-        https://www.youtube.com/@YagurumaRine
-        https://www.youtube.com/@YumeoiKakeru
-        https://www.youtube.com/@KuroiShiba
-        https://www.youtube.com/@YuzukiRoa
-        https://www.youtube.com/@OnomachiHaruka
-        https://www.youtube.com/@user-hk5qj2kc4x
-        https://www.youtube.com/@SetoMiyako
-        https://www.youtube.com/@InuiToko
-        https://www.youtube.com/@AngeKatrina
-        https://www.youtube.com/@LizeHelesta
-        https://www.youtube.com/@AizonoManami
-        https://www.youtube.com/@SaegusaAkina
-        https://www.youtube.com/@YukishiroMahiro
-        https://www.youtube.com/@ExAlbio
-        https://www.youtube.com/@LeviElipha
-        https://www.youtube.com/@HayamaMarin
-        https://www.youtube.com/@HakaseFuyuki
-        https://www.youtube.com/@NuiSociere
-        https://www.youtube.com/@YorumiRena
-        https://www.youtube.com/@KagamiHayato
-        https://www.youtube.com/@AibaUiha
-        https://www.youtube.com/@ArsAlmal
-        https://www.youtube.com/@AmamiyaKokoro
-        https://www.youtube.com/@RatnaPetit
-        https://www.youtube.com/@EliConifer
-        https://www.youtube.com/@HanaMacchia
-        https://www.youtube.com/@SukoyaKana
-        https://www.youtube.com/@HayaseSou
-        https://www.youtube.com/@ShellinBurgundy
-        https://www.youtube.com/@Fumi
-        https://www.youtube.com/@YamagamiKaruta
-        https://www.youtube.com/@HoshikawaSara
-        https://www.youtube.com/@EmmaAugust
-        https://www.youtube.com/@LuisCammy
-        https://www.youtube.com/@MatsukaiMao
-        https://www.youtube.com/@GweluOsGar
-        https://www.youtube.com/@ShirayukiTomoe
-        https://www.youtube.com/@FuwaMinato
-        https://www.youtube.com/@RaiGalilei
-        https://www.youtube.com/@AmiciaMichella
-        https://www.youtube.com/@RiksaDhirendra
-        https://www.youtube.com/@KurusuNatsume
-        https://www.youtube.com/@Naraka_nijisanji
-        https://www.youtube.com/@MashiroMeme
-        https://www.youtube.com/@MinSuha
-        https://www.youtube.com/@FurenELustario
-        https://www.youtube.com/@Ibrahim
-        https://www.youtube.com/@Gaon
-        https://www.youtube.com/@AzuraCecillia
-        https://www.youtube.com/@LaylaAlstroemeria
-        https://www.youtube.com/@NaraHaramaung
-        https://www.youtube.com/@GenzukiTojiro
-        https://www.youtube.com/@NagaoKei
-        https://www.youtube.com/@KaidaHaru
-        https://www.youtube.com/@SoNagi
-        https://www.youtube.com/@SorahoshiKirame
-        https://www.youtube.com/@SuoSango
-        https://www.youtube.com/@KitakojiHisui
-        https://www.youtube.com/@TodoKohaku
-        https://www.youtube.com/@NishizonoChigusa
-        https://www.youtube.com/@LeeRoha
-        https://www.youtube.com/@AkiraRay
-        https://www.youtube.com/@EtnaCrimson
-        https://www.youtube.com/@BonnivierPranaja
-        https://www.youtube.com/@YangNari
-        https://www.youtube.com/@RyuHari
-        https://www.youtube.com/@OhJiyu
-        https://www.youtube.com/@NagisaArcinia
-        https://www.youtube.com/@DeremKado
+        'https://www.youtube.com/@TsukinoMito',
+        'https://www.youtube.com/@YukiChihiro',
+        'https://www.youtube.com/@ShizukaRin',
+        'https://www.youtube.com/@ShibuyaHajime',
+        'https://www.youtube.com/@Moira',
+        'https://www.youtube.com/@HiguchiKaede',
+        'https://www.youtube.com/@Elu',
+        'https://www.youtube.com/@Suzuya_Aki',
+        'https://www.youtube.com/@MononobeAlice',
+        'https://www.youtube.com/@KenmochiToya',
+        'https://www.youtube.com/@IenagaMugi',
+        'https://www.youtube.com/@MorinakaKazaki',
+        'https://www.youtube.com/@FushimiGaku',
+        'https://www.youtube.com/@GilzarenIII',
+        'https://www.youtube.com/@FuminoTamaki',
+        'https://www.youtube.com/@UshimiIchigo',
+        'https://www.youtube.com/@SuzukaUtako',
+        'https://www.youtube.com/@YuhiRiri',
+        'https://www.youtube.com/@Kanae',
+        'https://www.youtube.com/@AkabaneYouko',
+        'https://www.youtube.com/@Dola',
+        'https://www.youtube.com/@HanabatakeChaika',
+        'https://www.youtube.com/@AzuchiMomo',
+        'https://www.youtube.com/@Ryushen',
+        'https://www.youtube.com/@Sister_Claire',
+        'https://www.youtube.com/@SuzukiMasaru',
+        'https://www.youtube.com/@TodorokiKyoko',
+        'https://www.youtube.com/@UzukiKou',
+        'https://www.youtube.com/@HarusakiAir',
+        'https://www.youtube.com/@YashiroKizuku',
+        'https://www.youtube.com/@NaruseNaru',
+        'https://www.youtube.com/@SasakiSaku',
+        'https://www.youtube.com/@HonmaHimawari',
+        'https://www.youtube.com/@MakainoRirimu',
+        'https://www.youtube.com/@Kuzuha',
+        'https://www.youtube.com/@ShiinaYuika',
+        'https://www.youtube.com/@KandaShoichi',
+        'https://www.youtube.com/@AmemoriSayo',
+        'https://www.youtube.com/@TakamiyaRion',
+        'https://www.youtube.com/@AsukaHina',
+        'https://www.youtube.com/@MaimotoKeisuke',
+        'https://www.youtube.com/@DebidebiDebiru',
+        'https://www.youtube.com/@RindouMikoto',
+        'https://www.youtube.com/@JoeRikiichi',
+        'https://www.youtube.com/@MachitaChima',
+        'https://www.youtube.com/@SakuraRitsuki',
+        'https://www.youtube.com/@BelmondBanderas',
+        'https://www.youtube.com/@YagurumaRine',
+        'https://www.youtube.com/@YumeoiKakeru',
+        'https://www.youtube.com/@KuroiShiba',
+        'https://www.youtube.com/@YuzukiRoa',
+        'https://www.youtube.com/@OnomachiHaruka',
+        'https://www.youtube.com/@user-hk5qj2kc4x',
+        'https://www.youtube.com/@SetoMiyako',
+        'https://www.youtube.com/@InuiToko',
+        'https://www.youtube.com/@AngeKatrina',
+        'https://www.youtube.com/@LizeHelesta',
+        'https://www.youtube.com/@AizonoManami',
+        'https://www.youtube.com/@SaegusaAkina',
+        'https://www.youtube.com/@YukishiroMahiro',
+        'https://www.youtube.com/@ExAlbio',
+        'https://www.youtube.com/@LeviElipha',
+        'https://www.youtube.com/@HayamaMarin',
+        'https://www.youtube.com/@HakaseFuyuki',
+        'https://www.youtube.com/@NuiSociere',
+        'https://www.youtube.com/@YorumiRena',
+        'https://www.youtube.com/@KagamiHayato',
+        'https://www.youtube.com/@AibaUiha',
+        'https://www.youtube.com/@ArsAlmal',
+        # 'https://www.youtube.com/@AmamiyaKokoro', # her channel exists on youtube, but URL gives 404 most of the time ; 581K as of 6/26/23
+        'https://www.youtube.com/@RatnaPetit',
+        'https://www.youtube.com/@EliConifer',
+        'https://www.youtube.com/@HanaMacchia',
+        'https://www.youtube.com/@SukoyaKana',
+        'https://www.youtube.com/@HayaseSou',
+        'https://www.youtube.com/@ShellinBurgundy',
+        'https://www.youtube.com/@Fumi',
+        'https://www.youtube.com/@YamagamiKaruta',
+        'https://www.youtube.com/@HoshikawaSara',
+        'https://www.youtube.com/@EmmaAugust',
+        'https://www.youtube.com/@LuisCammy',
+        'https://www.youtube.com/@MatsukaiMao',
+        'https://www.youtube.com/@GweluOsGar',
+        'https://www.youtube.com/@ShirayukiTomoe',
+        'https://www.youtube.com/@FuwaMinato',
+        'https://www.youtube.com/@RaiGalilei',
+        'https://www.youtube.com/@AmiciaMichella',
+        'https://www.youtube.com/@RiksaDhirendra',
+        'https://www.youtube.com/@KurusuNatsume',
+        'https://www.youtube.com/@Naraka_nijisanji',
+        'https://www.youtube.com/@MashiroMeme',
+        'https://www.youtube.com/@MinSuha',
+        'https://www.youtube.com/@FurenELustario',
+        'https://www.youtube.com/@Ibrahim',
+        'https://www.youtube.com/@Gaon',
+        'https://www.youtube.com/@AzuraCecillia',
+        'https://www.youtube.com/@LaylaAlstroemeria',
+        'https://www.youtube.com/@NaraHaramaung',
+        'https://www.youtube.com/@GenzukiTojiro',
+        'https://www.youtube.com/@NagaoKei',
+        'https://www.youtube.com/@KaidaHaru',
+        'https://www.youtube.com/@SoNagi',
+        'https://www.youtube.com/@SorahoshiKirame',
+        'https://www.youtube.com/@SuoSango',
+        'https://www.youtube.com/@KitakojiHisui',
+        'https://www.youtube.com/@TodoKohaku',
+        'https://www.youtube.com/@NishizonoChigusa',
+        'https://www.youtube.com/@LeeRoha',
+        'https://www.youtube.com/@AkiraRay',
+        'https://www.youtube.com/@EtnaCrimson',
+        'https://www.youtube.com/@BonnivierPranaja',
+        'https://www.youtube.com/@YangNari',
+        'https://www.youtube.com/@RyuHari',
+        'https://www.youtube.com/@OhJiyu',
+        'https://www.youtube.com/@NagisaArcinia',
+        'https://www.youtube.com/@DeremKado',
+        'https://www.youtube.com/@UmiseYotsuha',
+        'https://www.youtube.com/@KaburakiRoco',
+        'https://www.youtube.com/@PontoNei',
+        'https://www.youtube.com/@SeraphDazzlegarden',
+        'https://www.youtube.com/@AkagiWen',
+        'https://www.youtube.com/@HibachiMana',
+        'https://www.youtube.com/@DeremKado',
+        'https://www.youtube.com/@ShishidoAkari',
+        # 'https://www.youtube.com/@KoshimizuToru', # their channel exists on youtube, but URL gives 404 most of the time ; 162K as of 6/26/23
+        'https://www.youtube.com/@HyakumantenbaraSalome',
+        'https://www.youtube.com/@MikaMelatika',
+        'https://www.youtube.com/@OliverEvans',
+        'https://www.youtube.com/@HyonaElatiora',
+        'https://www.youtube.com/@InamiRai',
+        'https://www.youtube.com/@XiaEkavira',
+        'https://www.youtube.com/@RezaAvanluna',
+        'https://www.youtube.com/@BanHada',
+        'https://www.youtube.com/@SaikiIttetsu',
+        'https://www.youtube.com/@NaSera',
+        'https://www.youtube.com/@LaurenIroas',
+        'https://www.youtube.com/@LainPaterson',
+        'https://www.youtube.com/@HaYun',
+        'https://www.youtube.com/@LeosVincent',
+        'https://www.youtube.com/@AmagaseMuyu',
+        'https://www.youtube.com/@KoyanagiRou',
+        'https://www.youtube.com/@UsamiRito',
+        'https://www.youtube.com/@Seffyna',
+        'https://www.youtube.com/@MurakumoKagetsu',
+        'https://www.youtube.com/@FuraKanato',
+        'https://www.youtube.com/@WataraiHibari',
+        'https://www.youtube.com/@ShikinagiAkira',
+        'https://www.youtube.com/@IgarashiRika',
+        'https://www.youtube.com/@HoshirubeSho',
+        'https://www.youtube.com/@IshigamiNozomi',
+        'https://www.youtube.com/@Sophia_Valentine',
+        'https://www.youtube.com/@KuramochiMeruto',
+        'https://www.youtube.com/@KudouChitose',
+        'https://www.youtube.com/@IzumoKasumi',
+        'https://www.youtube.com/@HanChiho',
+        'https://www.youtube.com/@WarabedaMeiji',
+        'https://www.youtube.com/@SongMia',
+        'https://www.youtube.com/@MiyuOttavia',
+        'https://www.youtube.com/@ZEACornelia',
+        'https://www.youtube.com/@AsahinaAkane',
+        'https://www.youtube.com/@TakaRadjiman',
+        'https://www.youtube.com/@SiskaLeontyne'
     ],
     'nijisanji en' : [
-        https://www.youtube.com/@FinanaRyugu
-        https://www.youtube.com/@SonnyBrisko
-        https://www.youtube.com/@SelenTatsuki
-        https://www.youtube.com/@MillieParfait
-        https://www.youtube.com/@Rosemi_Lovelock
-        https://www.youtube.com/@EliraPendora
-        https://www.youtube.com/@UkiVioleta
-        https://www.youtube.com/@NinaKosaka
-        https://www.youtube.com/@EnnaAlouette
-        https://www.youtube.com/@petragurin
-        https://www.youtube.com/@MystaRias
-        https://www.youtube.com/@PomuRainpuff
-        https://www.youtube.com/@AlbanKnox
-        https://www.youtube.com/@MariaMarionette
-        https://www.youtube.com/@ShuYamino
-        https://www.youtube.com/@VoxAkuma
-        https://www.youtube.com/@IkeEveland
-        https://www.youtube.com/@LucaKaneshiro
-        https://www.youtube.com/@KyoKaneko
-        https://www.youtube.com/@FulgurOvid
-        https://www.youtube.com/@AiaAmare
-        https://www.youtube.com/@ScarleYonaguni
-        https://www.youtube.com/@AsterArcadia
-        https://www.youtube.com/@RenZotto
-        https://www.youtube.com/@HexHaywire
-        https://www.youtube.com/@KotokaTorahime
-        https://www.youtube.com/@VerVermillion
-        https://www.youtube.com/@VezaliusBandage
-        https://www.youtube.com/@VantacrowBringer
-        https://www.youtube.com/@YuQ.Wilson
-        https://www.youtube.com/@YugoAsuma
-        https://www.youtube.com/@ZaionLanZa
-        https://www.youtube.com/@MelocoKyoran
-        https://www.youtube.com/@DoppioDropscythe
-        https://www.youtube.com/@ReimuEndou
+        'https://www.youtube.com/@FinanaRyugu',
+        'https://www.youtube.com/@SonnyBrisko',
+        'https://www.youtube.com/@SelenTatsuki',
+        'https://www.youtube.com/@MillieParfait',
+        'https://www.youtube.com/@Rosemi_Lovelock',
+        'https://www.youtube.com/@EliraPendora',
+        'https://www.youtube.com/@UkiVioleta',
+        'https://www.youtube.com/@NinaKosaka',
+        'https://www.youtube.com/@EnnaAlouette',
+        'https://www.youtube.com/@petragurin',
+        'https://www.youtube.com/@MystaRias',
+        'https://www.youtube.com/@PomuRainpuff',
+        'https://www.youtube.com/@AlbanKnox',
+        'https://www.youtube.com/@MariaMarionette',
+        'https://www.youtube.com/@ShuYamino',
+        # 'https://www.youtube.com/@VoxAkuma', # their channel exists on youtube, but URL gives 404 most of the time ; 1.34M as of 6/26/23
+        'https://www.youtube.com/@IkeEveland',
+        'https://www.youtube.com/@LucaKaneshiro',
+        'https://www.youtube.com/@KyoKaneko',
+        'https://www.youtube.com/@FulgurOvid',
+        'https://www.youtube.com/@AiaAmare',
+        'https://www.youtube.com/@ScarleYonaguni',
+        'https://www.youtube.com/@AsterArcadia',
+        'https://www.youtube.com/@RenZotto',
+        'https://www.youtube.com/@HexHaywire',
+        'https://www.youtube.com/@KotokaTorahime',
+        'https://www.youtube.com/@VerVermillion',
+        'https://www.youtube.com/@VezaliusBandage',
+        'https://www.youtube.com/@VantacrowBringer',
+        'https://www.youtube.com/@YuQ.Wilson',
+        'https://www.youtube.com/@YugoAsuma',
+        'https://www.youtube.com/@ZaionLanZa',
+        'https://www.youtube.com/@MelocoKyoran',
+        'https://www.youtube.com/@DoppioDropscythe',
+        'https://www.youtube.com/@ReimuEndou'
     ]
 }
 
@@ -319,6 +365,10 @@ def get_username_from_url(url):
 
 data = []
 
+urls_to_debug = [
+    'https://www.youtube.com/@AmamiyaKokoro'
+]
+
 for org in accounts:
     for url in accounts[org]:
         print_to_file(url)
@@ -327,7 +377,10 @@ for org in accounts:
 
         username = get_username_from_url(url)
 
-        # debug_print(r.text, script_dir, '{}_dump.txt'.format(username))
+
+
+        if url in urls_to_debug:
+            debug_print(r.text, script_dir, '{}_dump.txt'.format(username))
 
         sub_count = get_subscirber_numbers(r.text, username)
 
