@@ -1,4 +1,15 @@
-import requests, re, urllib, os, html, shutil, sys
+import requests, re, urllib, os, html, shutil, sys, datetime
+
+# get the path to the directory that this script resides in
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# output file name
+output_filename = 'stats_' + datetime.date.today().strftime('%#m-%#d-%Y') + '.txt'
+output_filepath = script_dir + '\\' + output_filename
+
+# delete output file if it exists
+if os.path.exists(output_filepath):
+    os.remove(output_filepath)
 
 accounts = {
     'hololive' : [
@@ -11,7 +22,7 @@ accounts = {
         'https://www.youtube.com/@ShirakamiFubuki',
         'https://www.youtube.com/@NatsuiroMatsuri',
         'https://www.youtube.com/@AkaiHaato',
-        'https://www.youtube.com/@AkiRosenthal', # wrong
+        'https://www.youtube.com/@AkiRosenthal',
         'https://www.youtube.com/@MinatoAqua',
         'https://www.youtube.com/@MurasakiShion',
         'https://www.youtube.com/@NakiriAyame',
@@ -25,7 +36,7 @@ accounts = {
         'https://www.youtube.com/@ShiroganeNoel',
         'https://www.youtube.com/@HoushouMarine',
         'https://www.youtube.com/@AmaneKanata',
-        'https://www.youtube.com/@TsunomakiWatame', # wrong
+        'https://www.youtube.com/@TsunomakiWatame',
         'https://www.youtube.com/@TokoyamiTowa',
         'https://www.youtube.com/@HimemoriLuna',
         'https://www.youtube.com/@KiryuCoco',
@@ -49,10 +60,10 @@ accounts = {
         'https://www.youtube.com/@KoboKanaeru',
         'https://www.youtube.com/@MoriCalliope',
         'https://www.youtube.com/@TakanashiKiara',
-        'https://www.youtube.com/@NinomaeInanis', # wrong
+        'https://www.youtube.com/@NinomaeInanis',
         'https://www.youtube.com/@GawrGura',
         'https://www.youtube.com/@WatsonAmelia',
-        'https://www.youtube.com/@IRyS', # wrong
+        'https://www.youtube.com/@IRyS',
         'https://www.youtube.com/@CeresFauna',
         'https://www.youtube.com/@OuroKronii',
         'https://www.youtube.com/@NanashiMumei',
@@ -66,9 +77,14 @@ accounts = {
         'https://www.youtube.com/@rikka',
         'https://www.youtube.com/@AstelLeda',
         'https://www.youtube.com/@KishidoTemma',
-        'https://www.youtube.com/@YukokuRoberu' # roberu wrong
+        'https://www.youtube.com/@YukokuRoberu'
     ]
 }
+
+def print_to_file(input_data):
+    with open(output_filepath, 'a') as file:
+        file.write('{}\n'.format(input_data))
+
 
 # debug dump html data to a target directory
 def debug_print(html_data, dir_path, file_name):
@@ -79,8 +95,7 @@ def debug_print(html_data, dir_path, file_name):
 def find_expr_in_html(expr, html):
     return re.findall(expr, html, re.S)
 
-# get the path to the directory that this script resides in
-script_dir = os.path.dirname(os.path.abspath(__file__))
+
 
 def is_decimal_number(string):
     try:
@@ -107,11 +122,11 @@ def get_subscirber_numbers(html_data, username):
 
     subscriber_text = subscriber_text.split(' subscribers')[0]
 
-    print(subscriber_text)
+    print_to_file(subscriber_text)
 
     subscriber_tokens = subscriber_text.split()
 
-    print(subscriber_tokens)
+    print_to_file(subscriber_tokens)
 
     sub_count = None
     for token in subscriber_tokens:
@@ -134,19 +149,19 @@ data = []
 
 for org in accounts:
     for url in accounts[org]:
-        print(url)
+        print_to_file(url)
 
         r = requests.get(url)
 
         username = get_username_from_url(url)
 
-        debug_print(r.text, script_dir, '{}_dump.txt'.format(username))
+        # debug_print(r.text, script_dir, '{}_dump.txt'.format(username))
 
         sub_count = get_subscirber_numbers(r.text, username)
 
-        print('username: {}'.format(username))
-        print('sub_count: {}'.format(sub_count))
-        print('')
+        print_to_file('username: {}'.format(username))
+        print_to_file('sub_count: {}'.format(sub_count))
+        print_to_file('')
 
         data.append([sub_count, username, org.upper()])
 
@@ -159,4 +174,4 @@ ranking = 0
 for sub_count, username, org in sorted_data:
     ranking += 1
     formatted_sub_count = '{:,.0f}'.format(sub_count)
-    print('{} {} {} {}'.format(ranking, org, username, formatted_sub_count))
+    print_to_file('{} {} {} {}'.format(ranking, org, username, formatted_sub_count))
