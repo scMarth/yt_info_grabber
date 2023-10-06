@@ -68,7 +68,12 @@ accounts = {
         'https://www.youtube.com/@OuroKronii',
         'https://www.youtube.com/@NanashiMumei',
         'https://www.youtube.com/@HakosBaelz',
-        'https://www.youtube.com/@TsukumoSana'
+        'https://www.youtube.com/@TsukumoSana',
+        'https://www.youtube.com/@FUWAMOCOch',
+        'https://www.youtube.com/@ShioriNovella',
+        'https://www.youtube.com/@NerissaRavencroft',
+        'https://www.youtube.com/@KosekiBijou'
+
     ],
     'holostars' : [
         'https://www.youtube.com/@HanasakiMiyabi',
@@ -166,7 +171,7 @@ accounts = {
         'https://www.youtube.com/@KagamiHayato',
         'https://www.youtube.com/@AibaUiha',
         'https://www.youtube.com/@ArsAlmal',
-        # 'https://www.youtube.com/@AmamiyaKokoro', # her channel exists on youtube, but URL gives 404 most of the time ; 581K as of 6/26/23
+        'https://www.youtube.com/@AmamiyaKokoro', # her channel exists on youtube, but URL gives 404 most of the time ; 581K as of 6/26/23
         'https://www.youtube.com/@RatnaPetit',
         'https://www.youtube.com/@EliConifer',
         'https://www.youtube.com/@HanaMacchia',
@@ -221,7 +226,7 @@ accounts = {
         'https://www.youtube.com/@HibachiMana',
         'https://www.youtube.com/@DeremKado',
         'https://www.youtube.com/@ShishidoAkari',
-        # 'https://www.youtube.com/@KoshimizuToru', # their channel exists on youtube, but URL gives 404 most of the time ; 162K as of 6/26/23
+        'https://www.youtube.com/@KoshimizuToru', # their channel exists on youtube, but URL gives 404 most of the time ; 162K as of 6/26/23
         'https://www.youtube.com/@HyakumantenbaraSalome',
         'https://www.youtube.com/@MikaMelatika',
         'https://www.youtube.com/@OliverEvans',
@@ -276,7 +281,7 @@ accounts = {
         'https://www.youtube.com/@AlbanKnox',
         'https://www.youtube.com/@MariaMarionette',
         'https://www.youtube.com/@ShuYamino',
-        # 'https://www.youtube.com/@VoxAkuma', # their channel exists on youtube, but URL gives 404 most of the time ; 1.34M as of 6/26/23
+        'https://www.youtube.com/@VoxAkuma', # their channel exists on youtube, but URL gives 404 most of the time ; 1.34M as of 6/26/23
         'https://www.youtube.com/@IkeEveland',
         'https://www.youtube.com/@LucaKaneshiro',
         'https://www.youtube.com/@KyoKaneko',
@@ -298,6 +303,16 @@ accounts = {
         'https://www.youtube.com/@ReimuEndou'
     ]
 }
+
+
+# # debugging
+# accounts = {
+#     'nijisanji en' : [
+#         'https://www.youtube.com/@IkeEveland',
+#         'https://www.youtube.com/@VoxAkuma', # their channel exists on youtube, but URL gives 404 most of the time ; 1.34M as of 6/26/23
+        
+#     ]
+# }
 
 def print_to_file(input_data):
     with open(output_filepath, 'a') as file:
@@ -377,18 +392,27 @@ for org in accounts:
 
         username = get_username_from_url(url)
 
-
-
         if url in urls_to_debug:
             debug_print(r.text, script_dir, '{}_dump.txt'.format(username))
 
-        sub_count = get_subscirber_numbers(r.text, username)
+        sub_count = None
+
+        try:
+            sub_count = get_subscirber_numbers(r.text, username)
+        except:
+            print_to_file('URL ERROR')
 
         print_to_file('username: {}'.format(username))
-        print_to_file('sub_count: {}'.format(sub_count))
-        print_to_file('')
+        if sub_count:
+            print_to_file('sub_count: {}'.format(sub_count))
+            data.append([sub_count, username, org.upper()])
 
-        data.append([sub_count, username, org.upper()])
+        print_to_file('')
+        
+
+
+
+        
 
 
 
